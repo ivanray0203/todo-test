@@ -35,6 +35,7 @@ const addTodoHandler = () => {
             size="small"
             color="red"
             class="text-white"
+            v-if="todos.length > 0"
             @click="deleteAllTodo"
           >
             <Icon name="material-symbols:delete" /> Delete Tasks
