@@ -13,7 +13,7 @@ const addTodoHandler = () => {
 </script>
 <template>
   <div class="h-screen flex flex-col items-center justify-center">
-    <h1 class="text-3xl font-semibold">Test Project Todo List</h1>
+    <h1 class="text-3xl font-semibold">Ivan Test Project Todo List</h1>
     <v-card class="w-1/2 mt-4">
       <div class="p-4 flex flex-col gap-4">
         <div class="flex justify-end items-center">
